@@ -10,7 +10,7 @@ import FloatingTop from "./components/FloatingTop";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-paper font-sans text-ink">
+    <div className="min-h-screen overflow-x-clip bg-paper font-sans text-ink">
       <Nav />
       <main>
         <Hero />

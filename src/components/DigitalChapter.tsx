@@ -152,7 +152,7 @@ export default function DigitalChapter() {
               02
             </span>
             <Reveal className="relative z-10">
-              <h2 className="font-serif leading-[0.9] tracking-tight">
+              <h2 className="font-serif leading-[0.98] tracking-tight md:leading-[0.9]">
                 <span className="block text-[clamp(3rem,9vw,8.5rem)] font-black">BÁO</span>
                 <span className="block text-[clamp(2.4rem,7vw,6.5rem)] font-medium italic text-neon">
                   TRỰC TUYẾN

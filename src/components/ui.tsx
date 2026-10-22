@@ -57,7 +57,7 @@ export function Kicker({
 }) {
   return (
     <div
-      className={`flex items-center gap-3 font-mono text-[11px] tracking-[0.28em] uppercase md:text-xs ${
+      className={`flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[10px] tracking-[0.18em] uppercase md:text-xs md:tracking-[0.28em] ${
         tone === "ink" ? "text-ink/70" : "text-neon/80"
       }`}
     >
@@ -158,7 +158,7 @@ export function GhostStrip({
     <motion.div
       aria-hidden
       style={{ x }}
-      className={`pointer-events-none absolute font-serif text-[clamp(6rem,16vw,13rem)] leading-none font-black whitespace-nowrap select-none ${
+      className={`pointer-events-none absolute hidden font-serif text-[clamp(6rem,16vw,13rem)] leading-none font-black whitespace-nowrap select-none md:block ${
         tone === "ink" ? "text-outline-ink" : "text-outline-paper"
       } ${className}`}
     >

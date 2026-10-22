@@ -102,7 +102,7 @@ export default function PrintChapter() {
             01
           </span>
           <Reveal className="relative z-10">
-            <h2 className="font-serif text-[clamp(3rem,9vw,8.5rem)] leading-[0.9] font-black tracking-tight">
+            <h2 className="font-serif text-[clamp(3rem,9vw,8.5rem)] leading-[0.98] font-black tracking-tight md:leading-[0.9]">
               BÁO IN
             </h2>
           </Reveal>
@@ -291,7 +291,7 @@ export default function PrintChapter() {
                   </span>
                   <Star className="size-4 text-red" />
                 </div>
-                <p className="mt-6 font-serif text-5xl font-black tracking-tight">
+                <p className="mt-6 font-serif text-4xl font-black tracking-tight whitespace-nowrap md:text-5xl">
                   15·04·1865
                 </p>
                 <h4 className="mt-3 font-serif text-2xl font-bold italic text-red">
@@ -317,7 +317,7 @@ export default function PrintChapter() {
                   </span>
                   <Star className="size-4 text-red" />
                 </div>
-                <p className="mt-6 font-serif text-5xl font-black tracking-tight">
+                <p className="mt-6 font-serif text-4xl font-black tracking-tight whitespace-nowrap md:text-5xl">
                   1925 — 1941
                 </p>
                 <h4 className="mt-3 font-serif text-2xl font-bold italic text-red">
@@ -364,7 +364,7 @@ export default function PrintChapter() {
                   </span>
                   <Star className="size-4 text-red" />
                 </div>
-                <p className="mt-6 font-serif text-5xl font-black tracking-tight">
+                <p className="mt-6 font-serif text-4xl font-black tracking-tight whitespace-nowrap md:text-5xl">
                   11·03·1951
                 </p>
                 <h4 className="mt-3 font-serif text-2xl font-bold italic text-red">

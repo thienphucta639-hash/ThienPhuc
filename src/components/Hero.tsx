@@ -64,7 +64,7 @@ export default function Hero() {
             >
               Tổng quan về
             </motion.p>
-            <h1 className="font-serif font-black leading-[0.92] tracking-tight">
+            <h1 className="font-serif leading-[1.04] font-black tracking-tight md:leading-[0.92]">
               <motion.span
                 initial={{ opacity: 0, y: 60 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -77,9 +77,9 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 60 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.4, ease: EASE }}
-                className="block text-[clamp(2.4rem,7.4vw,7rem)] font-medium italic"
+                className="block text-[clamp(1.6rem,7.4vw,7rem)] font-medium italic"
               >
-                <span className="text-red not-italic">&amp;</span> BÁO TRỰC TUYẾN
+                <span className="text-red not-italic">&amp;</span> BÁO TRỰC&nbsp;TUYẾN
               </motion.span>
             </h1>
 
@@ -94,9 +94,9 @@ export default function Hero() {
                 .map((w, i) => (
                   <motion.span
                     key={w + "-" + i}
-                    initial={{ opacity: 0, y: 14 }}
+                    initial={{ opacity: 0, y: 8 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.62 + i * 0.02, ease: EASE }}
+                    transition={{ duration: 0.45, delay: 0.62 + i * 0.018, ease: EASE }}
                     className="inline-block"
                   >
                     {w}&nbsp;
